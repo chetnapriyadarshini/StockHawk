@@ -19,7 +19,6 @@
       />
   <LinearLayout
       android:layout_width="0dp"
-      android:id="@+id/stock_layout"
       android:layout_height="wrap_content"
       android:layout_weight="1"
       android:gravity="end"
@@ -29,9 +28,10 @@
         style="@style/BidPriceTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingRight="@dimen/price_padding"
-        android:paddingEnd="@dimen/price_padding"
-        android:paddingLeft="@dimen/price_padding"
+        android:paddingRight="10sp"
+        android:paddingEnd="10sp"
+        android:paddingLeft="10sp"
+        android:paddingStart="10sp"
         tools:text="1000.00"
         />
     <TextView
@@ -40,9 +40,10 @@
         style="@style/PercentChangeTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/percent_change_padding"
-        android:paddingRight="@dimen/percent_change_padding"
-        android:paddingEnd="@dimen/percent_change_padding"
+        android:paddingLeft="3dp"
+        android:paddingStart="3dp"
+        android:paddingRight="3dp"
+        android:paddingEnd="3dp"
         tools:text="100%"
         />
   </LinearLayout>

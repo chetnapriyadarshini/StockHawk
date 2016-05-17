@@ -1,13 +1,45 @@
 <resources>
-  <string name="app_name">Stock Hawk</string>
-
-  <string name="action_example">Example action</string>
-
-  <string name="action_settings">Settings</string>
-  <string name="action_change_units">Change Units</string>
-  <string name="symbol_search">Symbol Search</string>
-  <string name="content_test">Search for a Stock Symbol</string>
-  <string name="input_hint">FB</string>
-  <string name="input_prefill"></string>
-  <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+    <!-- Name of the application -->
+    <string name="app_name">Stock Hawk</string>
+    <!-- View change in stock price by percent change or dollar change -->
+    <string name="action_change_units">Change Units</string>
+    <!--  Search stock by symbol -->
+    <string name="symbol_search">Symbol Search</string>
+    <!-- Search for a stock symbol -->
+    <string name="content_test">Search for a Stock Symbol</string>
+    <!-- Input hint, used when user wants to add a stock to list -->
+    <string name="input_hint">FB</string>
+    <string name="input_prefill"></string>
+    <!-- Message for no internet connection -->
+    <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+    <string name="result_receiver" translatable="false">result_receiver</string>
+    <string name="tag_key" translatable="false">tag</string>
+    <string name="symbol_key" translatable="false">symbol</string>
+    <string name="init_tag" translatable="false">init</string>
+    <string name="add_tag" translatable="false">add</string>
+    <string name="periodic_tag" translatable="false">periodic</string>
+    <string name="detail_tag" translatable="false">stock_detail</string>
+    <!-- Message shown when user tries to add a stock already present in the list -->
+    <string name="stock_already_saved">This stock is already saved!</string>
+    <!-- Message shown when user tries to add a stock that does not exist -->
+    <string name="invalid_stock">Invalid stock!</string>
+    <!-- Message for no internet connection -->
+    <string name="no_internet">Cannot fetch stock values due to unavailability of internet connection.</string>
+    <!-- Content description for visually impaired, for the add button on main screen -->
+    <string name="add_stock">Add a stock to track it.</string>
+    <!-- Content description for a particualar stock in the list on main screen  -->
+    <string name="stock_price">The stock price for</string>
+    <!-- Stock price is up or down part of the above content description -->
+    <string name="up">is up</string>
+    <string name="down">is down</string>
+    <!-- Message shown when stock prices are outdated  -->
+    <string name="outdated_data">Your stock prices are outdated. Please try again in sometime.</string>
+    <!-- Price -->
+    <string name="price">Price:</string>
+    <string name="stock_excahnge" translatable="false">(NASDAQ:%s)</string>
+    <!-- Content Description text for marker view which appear on touching on a point in graph-->
+    <string name="closing_value">The closing value was %1$s on %2$s</string>
+    <string name="stock_trend_graph">Stock trend graph for %1$s from %2$s to %3$s. Touch on graph to hear specific values</string>
+    <!-- Text to be displayed when the chart is empty and data is being fetched-->
+    <string name="fetch_data">Please wait while we fetch relevant data for you</string>
 </resources>
